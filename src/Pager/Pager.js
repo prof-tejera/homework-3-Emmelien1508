@@ -1,7 +1,13 @@
-import "./Pager.css";
+import Pagination from 'components/Pagination/Pagination';
+import React, { useState } from 'react';
 
 const Pager = () => {
-  return null;
+    const [currentPage, setCurrentPage] = useState(2);
+    const nPages = 10
+
+    return (
+        <Pagination nPages = { nPages } currentPage = { currentPage } setCurrentPage = { setCurrentPage }/>
+    )
 };
 
 export default Pager;

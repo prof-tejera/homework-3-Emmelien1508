@@ -1,0 +1,48 @@
+.radio-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 1.25rem;
+}
+
+.prev,
+.next {
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.radio-button input[type="radio"] {
+    display: none;
+}
+
+.radio-button input[type="radio"]:checked + label {
+    background-image: linear-gradient(#F09819, #FF512F);
+    color: white;
+}
+
+.radio-button label {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 5px;
+}
+
+.radio-button label:hover {
+    background-color: rgba(221, 221, 221, 0.5);
+}
+
+.login .login-input {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    outline: none;
+    border: none;
+    font-size: 1.25rem;
+    padding: 10px 5px;
+    margin: 5px 0;
+}

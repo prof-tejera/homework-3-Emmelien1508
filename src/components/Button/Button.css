@@ -1,20 +1,24 @@
-.Default-button {
-  border: none;
-  color: black;
-  padding: 15px 32px;
+.button {
+  padding: 20px 45px;
+  margin: 20px 0;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
   font-weight: bold;
+  font-size: 1.25rem;
+  color: black;        
+  border: none;
+  border-radius: 10px;
 }
 
-.Default-button-active {
-  background-color: rgb(71, 145, 241);
+.button-active {
+  color: white;  
+  background-image: linear-gradient(#F09819, #FF512F);
 }
 
-.Default-button:hover {
-  background-color: rgb(71, 145, 241);
+.button:hover {  
+  background-color: rgba(221, 221, 221, 0.5);
+}
+
+.button:focus {
+  color: white;  
+  background-image: linear-gradient(#eb8900, #fc3811);
 }

@@ -3,7 +3,7 @@ import "./Button.css";
 const Button = ({ active, text, ...btnProps }) => {
   return (
     <button
-      className={active ? ".Default-button-active" : "Default-button"}
+      className={active ? "button button-active" : "button"}
       {...btnProps}
     >
       {text}
