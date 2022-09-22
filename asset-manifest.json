@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/homework-3-Emmelien1508/static/css/main.8231465d.css",
+    "main.js": "/homework-3-Emmelien1508/static/js/main.e2761bbf.js",
+    "index.html": "/homework-3-Emmelien1508/index.html",
+    "main.8231465d.css.map": "/homework-3-Emmelien1508/static/css/main.8231465d.css.map",
+    "main.e2761bbf.js.map": "/homework-3-Emmelien1508/static/js/main.e2761bbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8231465d.css",
+    "static/js/main.e2761bbf.js"
+  ]
+}
