@@ -1,22 +1,13 @@
-import Panel from "components/Panel/Panel";
-import "./Pager.css";
+import Pagination from 'components/Pagination/Pagination';
+import React, { useState } from 'react';
 
 const Pager = () => {
-  const nr = 12;
-  const items = [...Array(nr + 1).keys()].slice(1)
-  return (
-    <div className="pagination">
-      <div>&laquo;</div>
-      {items.map((item, index) => {
-        if (item === 5) {
-          return <Panel key={index} active={true}>{item}</Panel>
-        } else {
-          return <Panel key={index}>{item}</Panel>
-        }
-      })}
-      <div>&raquo;</div>
-    </div>
-  )
+    const [currentPage, setCurrentPage] = useState(2);
+    const nPages = 10
+
+    return (
+        <Pagination nPages = { nPages } currentPage = { currentPage } setCurrentPage = { setCurrentPage }/>
+    )
 };
 
 export default Pager;
